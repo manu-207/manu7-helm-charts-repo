@@ -1,0 +1,9 @@
+#repositoryID: The ID of the Artifact Hub repository where the packages will be published to (optional, but it enables verified publisher)
+repositoryID: b402efa6-85d0-4fb9-86f4-d96810eadf85
+owners: # (optional, used to claim repository ownership)
+  - name: B Manmadha Rao
+    email: b.manmadharao207@gmail.com
+ignore: # (optional, packages that should not be indexed by Artifact Hub)
+  - name: package1
+  - name: package2 # Exact match
+    version: beta # Regular expression (when omitted, all versions are ignored)
