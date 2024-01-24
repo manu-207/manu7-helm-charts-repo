@@ -28,7 +28,7 @@ securityContext: {}
 service:
   type: NodePort
   port: 80
-  nodePort: 31239
+  nodePort: 31939
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious
